@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+background: url('file:///C:/Users/JYOSHNA/OneDrive/Pictures/Screenshots/violet.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.images{
+	width:30%;
+	height:40%;
+	position:absolute;
+	top:2%;
+alignment:center;
+	}
+
+.images img{
+	height:100%;
+	position: absolute;
+	bottom:0;
+	transform:translate(-50%);
+	transition:bottom 1s,left 1s;
+	}
+
+.images:hover .shape{
+		bottom:40px;
+		}
+
+.images:hover .boy{
+	left:45%;
+		}
+
+h1{
+font-size:40px;
+color:red;
+font-family:cursive;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff8dc;
+    text-decoration: none;
+font-size:20px;
+font-weight:bold;
+background:#ff1493;
+
+}
+
+.back
+{
+background: url('file:///C:/Users/JYOSHNA/OneDrive/Pictures/p2.jpg') center/cover no-repeat;
+align-items: center;
+font-weight: bold;
+font-style:italic;
+font-size: 25px;
+color:blue;
+}
+
+h2
+{
+background:pink;
+color:#900603;
+font-family:cursive;
+font-size: 30px;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.back a{
+	background: #000;
+	padding:10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius:5px;
+	}
+
+.options a{
+	background: #000;
+	padding:10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius:5px;
+	}
+
+
+footer {
+    background-color:#00ced1;
+    color: #4b0082;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
